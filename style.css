@@ -1,0 +1,52 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#withdraw-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #0070BA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pin-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pin-input {
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #0070BA;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+#token-icon {
+    font-size: 100px;
+    cursor: pointer;
+}
+```
